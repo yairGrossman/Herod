@@ -1,0 +1,238 @@
+body {
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+}
+
+h3 {
+  color: #000000;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Tinos', serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 0 0 7% 27%;
+}
+
+.white-section-heading {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: #11999E;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 3% 10% 5%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #343a40;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Buildings */
+
+.jerusalem-paragraph {
+  padding: 10%;
+}
+
+.caesarea {
+  margin-top: 100px;
+}
+
+.caesarea-img {
+  width: 50%;
+}
+
+.caesarea-paragraph {
+  padding: 1% 20% 20% 20%;
+}
+
+.herodium-paragraph {
+  padding: 6% 10% 10% 20px;
+}
+
+/* קורות חייו של הורדוס */
+
+.heading-cv {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.h3-cv {
+  color: white;
+  padding: 0 13%;
+}
+
+/* עובדות מעניינות */
+
+#interesting-facts .container-fluid {
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-content {
+  padding: 2%;
+}
+
+.icon {
+  color: #11999E;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #6fe7dd;
+}
+
+
+/* footer */
+
+#footer .container-fluid {
+  padding-bottom: 1.5%;
+}
+
+.links {
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.sources {
+  display: inline-block;
+  margin:  0 2% 0;
+  font-size: 136%;
+}
+
+.copyright {
+  margin-right: 35%;
+  margin-top: 8%;
+}
+
+/* Title Image */
+
+.images {
+  width: 50%;
+  margin-right: 240px;
+}
+
+.temple-img {
+  margin-top: 40px;
+  margin-right: 240px;
+  width: 60%;
+}
+
+.image-herodium {
+  width: 50%;
+  margin-right: 240px;
+  margin-top: 50px;
+}
+
+@media (max-width: 1028px) {
+  body {
+    text-align: center;
+  }
+
+  .big-heading {
+    font-family: 'Tinos', serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 0 0 7% 10%;
+  }
+
+  .images {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  .links {
+    margin: 5% auto;
+  }
+
+  .copyright {
+    margin: auto;
+  }
+}
+
+@media (min-width: 1367px) {
+  /* title section */
+  .title-img {
+    margin: auto 47.1% auto auto;
+  }
+
+  .big-heading {
+    padding-left: 35.5%;
+    margin-left: 10%;
+    margin-top: 5.5%;
+  }
+
+  /* Buildings */
+
+  .jerusalem-paragraph {
+    padding-left: 22.745%;
+  }
+
+  .caesarea-paragraph {
+    padding-top: 7.5%;
+  }
+
+  .herodium-paragraph {
+    padding-left: 28.7%;
+  }
+
+  /* קורות חייו של הורדוס */
+
+  .h3-cv {
+    padding-left: 14.246%;
+    padding-right: 21.498%;
+
+  }
+
+  /* מקורות מידע */
+
+  #footer .container-fluid {
+    text-align: center;
+  }
+
+  .links {
+    margin: 5% auto 5%;
+  }
+
+  .copyright {
+    margin: auto;
+  }
+}
