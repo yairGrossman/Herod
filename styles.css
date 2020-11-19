@@ -23,7 +23,7 @@ h3 {
 
 .white-section-heading {
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
   color: #11999E;
 }
 
@@ -64,12 +64,20 @@ h3 {
 
 /* Buildings */
 
-.jerusalem-paragraph {
-  padding: 10%;
+#buildings .container-fluid {
+  padding-bottom: 5px;
+}
+
+.jerusalem-div {
+  margin-right: 6%;
 }
 
 .caesarea {
   margin-top: 100px;
+}
+
+.herodium {
+  margin-bottom: 5%;
 }
 
 .caesarea-img {
@@ -81,7 +89,8 @@ h3 {
 }
 
 .herodium-paragraph {
-  padding: 6% 10% 10% 20px;
+  padding: 6% 10% 10% 0;
+  margin-bottom: 0;
 }
 
 /* קורות חייו של הורדוס */
@@ -144,7 +153,6 @@ h3 {
 }
 
 /* Title Image */
-
 .images {
   width: 50%;
   margin-right: 240px;
@@ -152,7 +160,9 @@ h3 {
 
 .temple-img {
   margin-top: 40px;
-  margin-right: 240px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 180px;
   width: 60%;
 }
 
@@ -202,8 +212,12 @@ h3 {
 
   /* Buildings */
 
+  .jerusalem-div {
+    margin-right: 10%;
+  }
+
   .jerusalem-paragraph {
-    padding-left: 22.745%;
+    padding-left: 0;
   }
 
   .caesarea-paragraph {
